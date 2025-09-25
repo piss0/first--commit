@@ -16,7 +16,7 @@ void main(List<String> args) {
 
   if (jamBuka < 7) {
     print('toko masih tutup');
-  } else if (jamBuka >= 7 && jamTutup <= 16) {
+  } else if (jamSekarang === jamBuka >= 7 && jamTutup <= 16) {
     print('toko buka');
   } else if (jamTutup >= 16) {
     print('toko sudah tutup');
