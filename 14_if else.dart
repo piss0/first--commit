@@ -41,4 +41,14 @@ void main(List<String> args) {
   } else {
     print('Anda akan melakukan remidial');
   }
+  /**
+   * buat program menggunakan stdin (input) nilai ujian
+   * var nilai ujian type data num
+   * ketentuan nilai hasilnya ada di bawah ini
+   * jika nilai kurang dari 0 maka output nya
+   * tidak terdifikisi (tidak terdaftar)
+   * jika nilai lebih dari 100 maka inputnya
+   * "ini adalah cheater"
+   */
+  
 }

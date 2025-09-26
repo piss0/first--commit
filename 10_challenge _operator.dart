@@ -38,3 +38,4 @@ void main(List<String> args) {
   var ganjil = number % 2 != 0;
   print('Apakah $number adalah bilangan ganjil? $ganjil');
 }
+
