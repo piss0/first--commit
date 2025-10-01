@@ -6,7 +6,7 @@ void main(List<String> args) {
   String? input = stdin.readLineSync();
 
   if (input == null || input.trim().isEmpty) {
-    print("Input tidak boleh kosong!");
+    print("ga bisa kosong ");
     return;
   }
 
@@ -15,9 +15,9 @@ void main(List<String> args) {
   if (nilaiUjian == null) {
     print("Input harus berupa angka!");
   } else if (nilaiUjian < 0) {
-    print("Tidak terdefinisi (tidak terdaftar)");
+    print("ga masuk akal");
   } else if (nilaiUjian > 100) {
-    print("Ini adalah cheater");
+    print("ga munkin gila");
   } else {
     // Menentukan grade
     if (nilaiUjian <= 70) {
