@@ -1,12 +1,15 @@
+import '../construktor.dart';
 import 'malasss.dart';
+import '../animal.dart';
+import '../plants.dart';
 
 void main(List<String> args) {
-  var cat =   Animal();
+  var cat = Animal();
   var mushroom = Plants('Fungi', 'Mashroom', 'white', 20.1, 30000);
-  print('${mushroom.name} ${mushroom.color}');
+  print('${mushroom.namee} ${mushroom.color}');
   var hero = Character('Arkan', 100, 20);
-  hero.attack();
-  hero.heal();
+  //hero.attack();
+  //hero.heal();
 
   /**
  * .age
@@ -41,10 +44,8 @@ void main(List<String> args) {
    *    - heal()
    */
 
-  var hewan = Hewan('ucup', 'orange - white', 3.5);
-  ..name = 'valdimir';
-  ..color = 'red';
-  ..eat();
-
-  
+  var hewan = Hewan('ucup', 'orange - white', 3.5)
+    ..name = 'valdimir'
+    ..color = 'red'
+    ..eat();
 }
