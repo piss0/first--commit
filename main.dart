@@ -40,4 +40,11 @@ void main(List<String> args) {
    *    - attack()
    *    - heal()
    */
+
+  var hewan = Hewan('ucup', 'orange - white', 3.5);
+  ..name = 'valdimir';
+  ..color = 'red';
+  ..eat();
+
+  
 }
