@@ -1,33 +1,43 @@
-import '../animal.dart';
-import '../plants.dart';
 import 'malasss.dart';
+
 void main(List<String> args) {
-  print('Hello, World');
-
-  var cat = Animal();
-  var mashroom = Plants('fungi', 'mashrom', 'white', 20.1, 30000);
-  print('${mashroom.namee} ${mashroom.color}');
-
-  print(cat.age);
-  print(cat.name);
-  print(cat.colorSkin);
-  print(cat.weight)
-
-  cat.sleep();
-  cat.();
-  cat.sleep();
-  cat.sleep();
+  var cat =   Animal();
+  var mushroom = Plants('Fungi', 'Mashroom', 'white', 20.1, 30000);
+  print('${mushroom.name} ${mushroom.color}');
+  var hero = Character('Arkan', 100, 20);
+  hero.attack();
+  hero.heal();
 
   /**
-   * petualangan karakter rpg
+ * .age
+ * .name
+ * .colorskin
+ * .weight
+ * itu dinamakan properties atau attribute
+ */
+  print(cat.age);
+  print(cat.name);
+  print(cat.colorskin);
+  print(cat.weigth);
+
+  cat.sleep();
+  cat.eat();
+  cat.poop();
+
+  /**
+   * Petualangan Karakter RPG
    * 
-   * buatlha sebuah program dart yang mensimulasikan karalter\dalam 
-   * gam rpg, setiap karakter memiliki atribut dan kemampuan yang berbeda
+   * Buatlah sebuah program dart yang mensimulasikan karakter
+   * dalam game RPG, setiap karakter memiliki atribut dan kemampuan
+   * yang berbeda
    * 
-   * buat class character dengan properti :
-   * properties <==> (attribute)
-   * name ,healt, power
-   * methods <==> (function)
-   * attacks(),
-   * heal(),   */
+   * - Buat class Character dengan properti :
+   * properties => (attribute)
+   *    - name
+   *    - health
+   *    - power
+   * - Methods => (function)
+   *    - attack()
+   *    - heal()
+   */
 }
